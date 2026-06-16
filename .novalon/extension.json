@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "title": "Extension Creator's Guide",
+  "badge": "Reference • Guide",
+  "summary": "Reference example for creators preparing a GitHub repo for the Novalon extension library. Not an installable extension.",
+  "author": "Novalon",
+  "category": "Guide",
+  "rating": "—",
+  "isGuide": true,
+  "overview": "This repository is a permanent reference example on the Novalon extension library. It shows the expected repo layout, listing manifest, and preview image slots. Copy this structure when preparing your own extension repo for staff review.",
+  "highlights": [
+    "Reference example — shows how a listing card and detail page look on novalon.studio",
+    "Listing data lives in .novalon/; install packages stay in extension/ or GitHub Releases",
+    "Add Image1, Image2, and Image3 previews in .novalon/ (PNG, JPG, or WebP)",
+    "Email support@novalon.studio when your repo is ready for library review"
+  ],
+  "installSource": "Reference guide only. Real extensions host install files on the creator GitHub repo.",
+  "compatibility": "Reference layout for current Novalon Studio desktop builds.",
+  "installSteps": [
+    "Use this repository as a layout reference — nothing here is installed into Studio.",
+    "Copy the .novalon/ and extension/ structure when building your own extension repo.",
+    "Fill in .novalon/extension.json and add Image1, Image2, and Image3 preview images.",
+    "Email support@novalon.studio with your public GitHub link when ready for staff review."
+  ]
+}
